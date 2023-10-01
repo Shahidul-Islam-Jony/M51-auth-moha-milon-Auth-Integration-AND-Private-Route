@@ -18,6 +18,7 @@ const Register = () => {
         createUser(email,password) //passing email password to createUser in AuthProvider
         .then(result=>{
             console.log(result.user);
+            // e.target.reset();
         })
         .catch(error=>{
             console.error(error);
